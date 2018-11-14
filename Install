@@ -45,6 +45,16 @@ $ source ~/.bashrc
 create our cv  virtual environment where we’ll be doing our computer vision development using OpenCV 3.0 and Python 3.6:
 $ mkvirtualenv cv
 
+Step 2: Setup Python (Part 2)
+We’re halfway done setting up Python. But in order to compile OpenCV 3.0 with Python 3.6+ bindings, we’ll need to install the Python 3.6+ headers and development files: 	
+$ sudo apt-get install python3.6-dev
+
+OpenCV represents images as NumPy arrays, so we need to install NumPy into our cv  virtual environment:
+$ pip install numpy
+
+Step 3: Build and install OpenCV 3.0 with Python 3.6+ bindings
+Alright, our system is all setup now! Let’s pull down OpenCV from GitHub and checkout the 3.0.0  version
+
 
 
 
